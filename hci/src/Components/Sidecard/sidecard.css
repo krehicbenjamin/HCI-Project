@@ -9,6 +9,7 @@
     animation: ease-in-out;
     border-radius: 10px;
     margin: 10px;
+    cursor: pointer;
 }
 .sidecard-container:hover{
     transform: scale(1.03);

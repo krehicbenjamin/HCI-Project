@@ -8,7 +8,8 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 100;    
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.3);
 }
 
 .navbar-logo{
@@ -40,7 +41,7 @@
 }
 
 .navigation-link:hover{
-    background-color: #bdbdbd;
+    background-color: #dddbdb;
     border-radius: 10px;
     transition: all 0.5s ease-in-out;
 }

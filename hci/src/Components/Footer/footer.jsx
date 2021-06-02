@@ -37,11 +37,11 @@ class Footer extends Component {
                 <Col>
                     <Row>
                         <div class="col3">
-                            <h3>COVIDInfoHelp.com</h3>
+                            <h3>HCI Project</h3>
                             <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus.</p>
                         </div>
                         <div class="col4">
-                            <p class="copyright">COVIDInfoHelpAndIntegration © 2021</p>
+                            <p class="copyright">Benjamin Krehic / Amela Kospo © 2021</p>
                         </div>
                     </Row>
                 </Col>
