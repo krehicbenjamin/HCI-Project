@@ -27,7 +27,10 @@
 .App-link {
   color: #61dafb;
 }
-
+.Ad{
+  width: 300px;
+  height: 150px;
+}
 .articles{
   justify-content: center;
   margin-top: 90px;
@@ -37,17 +40,16 @@
 }
 .content{
   display: flex;
+  margin-bottom: 20px;
 }
 .sidecard{
   justify-content: center;
-  margin-top: 90px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 25%;
   height: 600px;
   position: fixed;
-    padding: 2em;
     left: 82%;
     top: 40%;
     transform: translate(-50%, -50%);
