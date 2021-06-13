@@ -21,13 +21,13 @@ function App() {
             <Route exact path='/'>
               <Home />
             </Route>
-            <Route path='/category1'>
+            <Route path='/category'>
               <Category />
             </Route>
-            <Route path='/category2'>
+            <Route path='/category'>
               <Category />
             </Route>
-            <Route path='/category3'>
+            <Route path='/category'>
               <Category />
             </Route>
             <Route path='/article'>
