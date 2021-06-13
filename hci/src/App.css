@@ -41,6 +41,11 @@
 	font-family: opendyslexic !important;
 }
 */
+.navbar-logo{
+  height: 60px;
+  width: auto;
+
+}
 .aricle_image{
   padding-left: 30px;
 }
