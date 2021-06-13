@@ -1,7 +1,9 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './sidecard.css';
 function Sidecard({title, imageURL, time}){
     return(
+        <Link className ="card-link" to="/article">
         <div className='sidecard-container'>
 
             <div className="side-image-container">
@@ -21,7 +23,7 @@ function Sidecard({title, imageURL, time}){
             </div>
             
         </div>
-        
+        </Link>
     );
 
 }
