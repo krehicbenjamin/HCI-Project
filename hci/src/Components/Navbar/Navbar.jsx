@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {menuItems} from "./MenuItems";
 import "./navbar.css";
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import {Button} from "../Button/Button";
 class Navbar extends Component {
     state = {
@@ -24,9 +25,9 @@ class Navbar extends Component {
                     {menuItems.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a className={item.cName} href={item.url}>
+                                <Link className={item.cName} to={item.url} activeClassName = {"active-nav"}>
                                     <strong>{item.name}</strong> 
-                                </a>
+                                </Link>
                             </li>
                         );
                     })}
