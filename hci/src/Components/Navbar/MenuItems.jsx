@@ -1,27 +1,27 @@
 export const menuItems = [
     {
         name: "Home",
-        url: "#",
+        url: "/",
         cName: "navigation-link"
     },
     {
         name: "Category 1",
-        url: "#",
+        url: "/category",
         cName: "navigation-link"
     },
     {
         name: "Category 2",
-        url: "#",
+        url: "/category",
         cName: "navigation-link"
     },
     {
         name: "Category 3",
-        url: "#",
+        url: "/category",
         cName: "navigation-link"
     },
     {
         name: "Login",
-        url: "#",
+        url: "/login",
         cName: "btn btn--primary"
     }
 
