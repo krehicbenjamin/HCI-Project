@@ -7,6 +7,7 @@
     border-radius: 10px;
     margin: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
 .card-container:hover{
     transform: scale(1.03);
@@ -20,6 +21,7 @@
 .card-content{
     margin: 1rem;
     margin-top: 0.5rem;
+    text-decoration: none;
 }
 
 h2,p{
@@ -27,8 +29,16 @@ h2,p{
     padding: 0;
 }
 .card-title{
+    color: black;
     margin-bottom: 0.5rem;
+    text-decoration: none;
 }
 .card-body{
     color: rgb(90, 96, 107);
+    text-decoration: none;
+}
+
+.card-link{
+    text-decoration: none;
+    color: rgb(148, 144, 138);
 }

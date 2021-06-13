@@ -1,7 +1,9 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './card.css';
 function Card({title, imageURL, body}){
     return(
+    <Link className ="card-link" to="/article">
         <div className='card-container'>
 
             <div className="image-container">
@@ -21,6 +23,7 @@ function Card({title, imageURL, body}){
             </div>
             
         </div>
+        </Link>
 
     );
 
