@@ -41,6 +41,15 @@
 	font-family: opendyslexic !important;
 }
 */
+.aricle_image{
+  padding-left: 30px;
+}
+.article_view_title{
+  font-size: 20px;
+}
+.article_view_body{
+  padding: 20px;
+}
 .App {
   text-align: center;
 }
