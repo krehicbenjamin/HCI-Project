@@ -6,7 +6,7 @@ class Login extends Component {
     state = {  }
     render() { 
         return ( 
-
+            <div className="centered">
             <div className ="wrapper fadeInDown">
                 <div className="formContent">
                     <div className="fadeIn first">
@@ -22,7 +22,7 @@ class Login extends Component {
                     </div>
                 </div>
             </div>
-            
+            </div>
         );
     }
 }
