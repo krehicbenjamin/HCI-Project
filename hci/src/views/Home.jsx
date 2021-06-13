@@ -108,11 +108,7 @@ class Home extends Component {
             imageURL="https://picsum.photos/200/300"
             time="1d"
             />
-            <Sidecard 
-            title="title"
-            imageURL="https://picsum.photos/200/300"
-            time="1d"
-            />
+
         </div>
         </div>
          );
