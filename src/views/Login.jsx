@@ -13,8 +13,8 @@ class Login extends Component {
                         <img src={image} id="icon" className="login_image" />
                     </div>
                     <form>
-                        <input type="text" id="login" className="fadeIn second" name="login" placeholder="login"/>
-                        <input type="text" id="password" className="fadeIn third" name="login" placeholder="password"/>
+                        <input type="text" id="login" className="fadeIn second" name="login" placeholder="login" required/>
+                        <input type="text" id="password" className="fadeIn third" name="login" placeholder="password" required/>
                         <input type="submit" className="fadeIn fourth" value="Log In"/>
                     </form>
                     <div id="formFooter">

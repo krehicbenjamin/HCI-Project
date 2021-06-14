@@ -13,10 +13,10 @@ class Register extends Component {
                         <img src={image} id="icon" className="login_image" />
                     </div>
                     <form>
-                    <input type="text" id="login" className="fadeIn second" name="username" placeholder="Username"/>
-                        <input type="text" id="login" className="fadeIn third" name="email" placeholder="Email"/>
-                        <input type="text" id="password" className="fadeIn fourth" name="login" placeholder="Password"/>
-                        <input type="text" id="password" className="fadeIn fifth" name="login" placeholder="Confirm password"/>
+                    <input type="text" id="login" className="fadeIn second" name="username" placeholder="Username" minlength="3" maxlength="15" required/>
+                        <input type="text" id="login" className="fadeIn third" name="email" placeholder="Email" required/>
+                        <input type="text" id="password" className="fadeIn fourth" name="login" placeholder="Password" required/>
+                        <input type="text" id="password" className="fadeIn fifth" name="login" placeholder="Confirm password" required/>
                         <input type="submit" className="fadeIn sixth" value="Register"/>
                         
                     </form>
