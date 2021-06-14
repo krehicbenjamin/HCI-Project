@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import "../login.css"
 import image from "../Images/bhpress1.png"
 import {Link} from "react-router-dom"
@@ -16,8 +17,8 @@ class Register extends Component {
                     <input type="text" id="login" className="fadeIn second" name="username" placeholder="Username" minlength="3" maxlength="15" required/>
                         <input type="text" id="login" className="fadeIn third" name="email" placeholder="Email" required/>
                         <input type="text" id="password" className="fadeIn fourth" name="login" placeholder="Password" required/>
-                        <input type="text" id="password" className="fadeIn fifth" name="login" placeholder="Confirm password" required/>
-                        <input type="submit" className="fadeIn sixth" value="Register"/>
+                        
+                        <Link to ="/login"><input type="submit" className="fadeIn sixth" value="Register"/></Link>
                         
                     </form>
                     <div id="formFooter">
