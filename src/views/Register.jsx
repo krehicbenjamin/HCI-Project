@@ -18,7 +18,7 @@ class Register extends Component {
                         <input type="text" id="login" className="fadeIn third" name="email" placeholder="Email" required/>
                         <input type="text" id="password" className="fadeIn fourth" name="login" placeholder="Password" required/>
                         
-                        <Link to ="/login"><input type="submit" className="fadeIn sixth" value="Register"/></Link>
+                        <input type="submit" className="fadeIn sixth" value="Register"/>
                         
                     </form>
                     <div id="formFooter">
